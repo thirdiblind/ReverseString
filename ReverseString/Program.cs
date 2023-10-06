@@ -12,11 +12,11 @@
             string reversed = "";
             int length = userInput.Length;
 
-           for (int letterCount = 0; letterCount < length; letterCount++)
+            for (int letterCount = 0; letterCount < length; letterCount++)
             {
                 reversed += Char.ToLower(userInput[length - letterCount - 1]);
             }
-           
+
             Console.WriteLine($"\"{userInput}\" reversed is: {reversed}");
             if (reversed == userInput.ToLower())
             {
