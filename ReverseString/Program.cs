@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("This is a string reversal tool!\n\n Enter a string of characters and press enter. \n");
+            Console.WriteLine("This is a string reversal tool!\n\nEnter a string of characters and press enter. \n");
 
             string userInput = Console.ReadLine();
             Console.WriteLine($"You entered: {userInput}\n");
