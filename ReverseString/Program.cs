@@ -18,7 +18,7 @@
             }
            
             Console.WriteLine($"\"{userInput}\" reversed is: {reversed}");
-            if (reversed == userInput)
+            if (reversed == userInput.ToLower())
             {
                 Console.WriteLine($"{reversed} is a palindrome!");
             }
